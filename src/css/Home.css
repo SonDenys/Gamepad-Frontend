@@ -1,0 +1,77 @@
+/* SEARCH BLOCK */
+
+.searchBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.search {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  width: 500px;
+  padding: 20px;
+}
+
+.search-icon {
+  background-color: white;
+  position: relative;
+  top: 50px;
+  left: 220px;
+}
+
+/* HOME PAGE */
+
+#listGames {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game-block {
+  margin-bottom: 50px;
+  cursor: pointer;
+  width: 220px;
+  height: 100%;
+}
+
+.game-block-container:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.game-block p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.game-block img:hover {
+  box-shadow: 0 2px 2px 2px white;
+}
+
+.image-games {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  top: 30px;
+}
+
+.name {
+  position: relative;
+  bottom: 60px;
+  background-color: rgba(29, 29, 29, 0.5);
+  padding: 10px;
+}
+
+.button-action-home {
+  position: relative;
+  top: 25px;
+}

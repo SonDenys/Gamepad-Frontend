@@ -1,0 +1,134 @@
+/* GLOBAL RULES */
+
+@font-face {
+  font-family: "Exo";
+  src: url("../assets/fonts/Exo-Light.ttf") format("truetype"),
+    url("../assets/fonts/Exo-Thin.ttf");
+  src: url("../assets/fonts/Exo-Medium.ttf") format("truetype"),
+    url("../assets/fonts/Exo-Regular.ttf") format("truetype"),
+    url("../assets/fonts/Exo-SemiBold.ttf") format("truetype");
+  font-weight: thin;
+  font-style: thin;
+  font-display: swap;
+}
+
+.App {
+  background-color: black;
+  color: white;
+  font-family: "Exo";
+}
+
+.App-container {
+  margin: auto;
+  width: 1240px;
+  background-color: #1f2023;
+  padding: 0 30px 0 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* GAME PAGE */
+
+.game-page-image {
+  object-fit: cover;
+  height: 354px;
+  width: 665px;
+  left: 272px;
+  top: 205px;
+  border-radius: 8px;
+}
+
+h1 {
+  height: 47px;
+  width: 508px;
+  font-size: 35px;
+}
+
+.game-infos-container1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.game-image:-webkit-scrollbar {
+  display: none;
+}
+
+.game-infos-container2 {
+  /* background: lightgreen; */
+  width: 40%;
+  font-size: 16px;
+}
+
+.game-infos-container3 {
+  display: flex;
+  /* background: pink; */
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.game-infos-container div {
+  /* margin-right: 30px; */
+}
+
+.game-infos-details-col1 {
+  /* background: red; */
+}
+
+.game-infos-details-col2 {
+  /* background: blue; */
+}
+
+span {
+  color: lightgray;
+}
+
+.platforms p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* MY COLLECTION */
+
+.my-collection {
+  font-size: 52px;
+  display: flex;
+  justify-content: center;
+}
+
+/* LOADING */
+
+/* PAGINATION */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.pagination button {
+  background: #1f2023;
+  height: 37px;
+  width: 84px;
+  top: 0px;
+  border: none;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  font-style: italic;
+  font-size: 14px;
+}
