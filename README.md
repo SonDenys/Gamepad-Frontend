@@ -1,4 +1,4 @@
-### Front-end Part
+### Frontend Part
 This is a simplified replica of the site https://rawg.io/ 
 <br>
 You can visit the replica directly [here](https://gamepad-clone-bydenis.netlify.app/)
