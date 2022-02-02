@@ -1,5 +1,3 @@
-### Resume
-
 ### Front-end Part
 This is a simplified replica of the site https://rawg.io/ 
 <br>
