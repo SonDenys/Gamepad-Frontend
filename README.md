@@ -1,7 +1,7 @@
 ### Frontend Part
-This is a simplified replica of the site https://rawg.io/, the project is still in progress
+This is a simplified replica of the site https://rawg.io/, the project is still in progress.
 <br>
-You can visit the replica directly [here](https://gamepad-clone-bydenis.netlify.app/)
+You can visit the replica directly [here](https://gamepad-clone-bydenis.netlify.app/).
 
 Developed functionalities :
 - Authentification SignIn & SignOut with cookies
